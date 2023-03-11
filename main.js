@@ -29,10 +29,10 @@ headerTitle.innerHTML = '<h3>Hello</h3>'
 // 
 
 // GET ELEMENTS BY CLASS NAME //
- var items = document.getElementsByClassName('title');
-console.log(items);
-items[0].style.color = 'green';
-items[0].style.fontWeight = 'bold';
+//  var items = document.getElementsByClassName('title');
+// console.log(items);
+// items[0].style.color = 'green';
+// items[0].style.fontWeight = 'bold';
 
 
 
@@ -73,17 +73,18 @@ items[0].style.fontWeight = 'bold';
 // // header.style.borderBottom = 'solid 3px #000';
 
 
-// //get elements by class name
-// // var items = document.getElementsByClassName('list-group-item');
-// // console.log(items);
-// // console.log(items[1]);
-// // items[1].textContent = 'hello 2';
-// // items[1].style.fontWeight = 'bold';
-// // items[1].style.backgroundColor = 'yellow';
+// get elements by class name //
+var items = document.getElementsByClassName('list-group-item');
+console.log(items);
+console.log(items[1]);
+items[1].textContent = 'hello 2';
+items[1].style.fontWeight = 'bold';
+items[2].style.backgroundColor = 'yellow';
 
-// // for(var i=0;i<items.length;i++){
-// //     items[i].style.backgroundColor = '#f4f4f4'
-// // }
+for(var i=0;i<items.length;i++){
+    items[i].style.color = 'green';
+    items[i].style.fontWeight = 'bold';
+}
 
 
 // //items[1].sty
